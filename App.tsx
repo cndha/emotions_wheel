@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, Text, FlatList } from 'react-native';
-import FeelingItem from './components/FeelingItem'
+import EmotionsChart from './components/EmotionsChart'
 
 const App = () => {
 
   return(
     <View style={styles.container}>
       <Text style={styles.title}>Tap a feeling to learn more</Text>
-      <FeelingItem/>
+      <EmotionsChart/>
     </View>
   )
 }
